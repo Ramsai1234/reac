@@ -1,14 +1,17 @@
 {
   "name": "to-do-list",
   "private": true,
-  "homepage": "https://MilitantVlr.github.io/To_Do_List",
+  "homepage": "https://Ramsai1234.github.io/reac",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+    
   },
   "dependencies": {
     "react": "^18.3.1",
